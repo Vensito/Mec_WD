@@ -1,0 +1,152 @@
+
+
+/* structural style*/
+* {
+   margin:0;
+   padding:0;
+}
+
+body{
+     
+    font-size:1.1em;
+    font-family:Arial, Helvetica,sans-serif;
+    background-color:#A0999F;
+    
+}
+
+#container {
+            width:930px;
+            border-width:1px;
+            margin:0 auto;
+            background-color:purple;
+}
+         
+
+header{
+       width:910px;
+       margin-bottom:30px;
+       margin-top:10px;
+       border:1px solid #88888;
+       box-shadow:15px 15px 5px 0 #88888;
+       border-radius:25px;
+       text-align:center;
+       background-color:white;
+       
+}
+
+
+nav {
+     width:200px;
+     margin:0 5px 0 5px;
+     padding:25px 10px 0 10px;
+     float:left;
+     text-align:center;
+     
+}
+
+nav ul{
+      font-weight:bold;
+      list-style:none;
+      
+}
+      
+nav ul li a{
+            display:block;
+            color:gray;
+            padding:5px;
+            text-decoration:none;
+}
+
+nav ul li a:hover{
+                  background:gray;
+                  border-radius:10px;
+                  color:white;    
+}
+
+
+
+#main{
+      width:446;
+      padding:10px;
+      float:left;
+      color:black;
+      border-left:2px solid;
+      border-right:2px solid;
+      background-color:white;
+}
+#main p{
+        text-indent:1.5em;
+        font-size:0.9em;
+        text-align:justify;
+        color:black;
+}
+
+
+figure {
+        padding-top:10px;
+        text-align:center;
+}
+ 
+figcaption{
+           font-style:italic;
+}
+
+aside{
+      width:200;
+      margin:0 5px 0 px;
+      padding:10px;
+      float:right;
+      
+}
+
+
+aside p{
+       font-style:italic;
+       font-size:0.9em;
+       color:white;
+       
+}
+
+h2{
+   font-size:1.4em;
+   text-align:center;
+   padding-bottom:0.5em;
+   background-color:#AAB7B8;
+}
+
+h3{
+   text-align:center;
+   padding-bottom:0.5em;
+   padding-top:0.5em;
+   color:white;
+}
+    
+
+
+footer{
+       width:910px;
+       magin:0;
+       padding:10px;
+       background-color:blue;
+       color:white;
+       clear:both;
+       font-weight:bold;
+       border-bottom-left-radius:25px;
+       border-bottom-right-radius:25px;
+       font-size:0.9em;
+       text-align:center;
+}
+
+#wrapper{
+        width:930px;
+        margin-bottom:10px;
+        border:2px solid;
+        border-radius:27px;
+}
+
+
+
+
+
+
+      
